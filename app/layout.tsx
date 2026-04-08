@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,16 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <nav>
+          <ul className="flex items-center justify-center gap-12 py-5 text-xl">
+            <li><Link href="/" className=" hover:underline" >Home</Link> </li>
+            <li><Link href="/task1" className=" hover:underline" >Task 1</Link> </li>
+            <li><Link href="/task2" className=" hover:underline" >Task 2</Link> </li>
+          </ul>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }
