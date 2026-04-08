@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="min-h-screen w-full py-28 mx-auto bg-white ">
-      <div className="mx-auto w-[80%] flex flex-col  gap-12 ">
+    <div className="min-h-screen flex justify-center items-center  py-28 bg-white ">
+      <div className="mx-auto flex flex-col  gap-12 ">
         <div className="space-y-6 text-black">
           <p className="font-outfit font-normal text-[24px] leading-[100%] tracking-normal">
             Explore our classes and master trending skills!

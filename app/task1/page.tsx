@@ -7,8 +7,8 @@ import { data, data2 } from "@/lib";
 
 const page = () => {
   return (
-    <div className=" py-20 w-full bg-white ">
-      <div className="mx-auto w-[80%] flex flex-col  gap-12 ">
+    <div className=" py-20 flex items-end-safe bg-white">
+      <div className="mx-auto flex flex-col  gap-12 ">
         <div className="space-y-6 text-black">
           <p className="font-outfit font-medium text-[24px] leading-[100%] tracking-normal">
             Your SkillShikshya Journey
@@ -22,7 +22,6 @@ const page = () => {
         </div>
         <div className="flex  gap-6">
           <div className="flex flex-col-reverse gap-12 ">
-         
             <MentorCard data={data[0]} />
             <StackedCard
               topCard={<MentorCard data={data[1]} />}
@@ -30,8 +29,6 @@ const page = () => {
             />
           </div>
           <div className="flex flex-col-reverse gap-12">
-
-         
             <Card2 data={data2[0]} />
             <StackedCard
               topCard={<Card2 data={data2[1]} />}
