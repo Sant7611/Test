@@ -51,3 +51,53 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes bounceSmooth {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@utility animate-bounce-smooth {
+  animation: bounceSmooth 2s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes toFro {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@utility animate-to-fro {
+  animation: toFro 2s ease-in-out infinite;
+}
+
+@keyframes tiltPlus {
+  0% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+  100% {
+    transform: translate(5px, 5px);
+  }
+}
+
+.cards-group:hover .plus-animate {
+  animation: tiltPlus 0.4s ease-in-out forwards;
+}

@@ -28,7 +28,7 @@ const Card2 = ({ data }: { data: CardProps }) => {
           left: data.left,
           transform: `rotate(${data.rotate})`,
         }}
-        className="absolute right-[-49px]"
+        className="absolute right-[-49px] animate-bounce-smooth"
       >
         <Image
           src={data.image}

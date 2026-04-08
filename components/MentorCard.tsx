@@ -24,27 +24,25 @@ const MentorCard = ({ data }: { data: CardProps }) => {
           width: data.width,
           height: data.height,
         }}
-        className="absolute left-[-49px]"
+        className="absolute left-[-49px] animate-bounce-smooth "
       >
         <Image
           src={data.image}
           alt={data.title}
           fill
-          loading="eager"
-          unoptimized
-          className="object-contain h-full w-full"
+          className="object-contain "
         />
       </div>
 
       <div className="ml-auto flex flex-col h-auto  text-right mr-9   ">
         <div className="flex flex-col items-end gap-4">
-          <h3 className="text-white text-[32px] font-nohemi w-fit h-fit font-[700] leading-[120%] font-nohemi ">
+          <h3 className="text-white text-[32px] font-nohemi w-fit h-fit font-bold leading-[120%] font-nohemi ">
             {data.title}
           </h3>
-          <p className=" text-[24px] leading-normal  w-auto font-[500] text-center font-outfit">
+          <p className=" text-[24px] leading-normal  w-auto font-medium text-center font-outfit">
             {data.subHeading}
           </p>
-          <p className="text-white text-[18px] w-[351px] font-[400] leading-normal text-right font-outfit ">
+          <p className="text-white text-[18px] w-[351px] font-normal leading-normal text-right font-outfit ">
             {data.description}
           </p>
         </div>
