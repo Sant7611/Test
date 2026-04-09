@@ -39,7 +39,7 @@ const MentorCard = ({ data }: { data: CardProps }) => {
           <h3 className="text-white text-[32px] font-nohemi w-fit h-fit font-bold leading-[120%] font-nohemi ">
             {data.title}
           </h3>
-          <p className=" text-[24px] leading-normal  w-auto font-medium text-center font-outfit">
+          <p className="text-white text-[24px] leading-normal  w-auto font-medium text-center font-outfit">
             {data.subHeading}
           </p>
           <p className="text-white text-[18px] w-[351px] font-normal leading-normal text-right font-outfit ">

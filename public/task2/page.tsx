@@ -1,4 +1,4 @@
-import T2Card from "@/components/T2Card";
+import T2Card from "@/components/task2/T2Card";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
@@ -29,7 +29,7 @@ const page = () => {
                   <div className="flex gap-[42px] mt-[63px] justify-center">
                     <div>
                       <Image
-                        src="/icon1.png"
+                        src="/task2/icon1.png"
                         alt="course image"
                         width={95}
                         height={95}
@@ -37,7 +37,7 @@ const page = () => {
                     </div>
                     <div>
                       <Image
-                        src="/icon2.png"
+                        src="/task2/icon2.png"
                         alt="course image"
                         width={95}
                         height={95}
@@ -45,7 +45,7 @@ const page = () => {
                     </div>
                     <div>
                       <Image
-                        src="/icon3.png"
+                        src="/task2/icon3.png"
                         alt="course image"
                         width={95}
                         height={95}
@@ -53,7 +53,7 @@ const page = () => {
                     </div>
                     <div>
                       <Image
-                        src="/icon5.png"
+                        src="/task2/icon5.png"
                         alt="course image"
                         width={95}
                         height={95}

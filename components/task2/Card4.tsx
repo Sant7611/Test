@@ -8,7 +8,7 @@ export default function Card4() {
         <Image alt="profile Image" src="/check.png" height={329} width={572}  />
       </div>
       <div className="absolute w-[241px] h-[48px] top-[36px] left-[80px]">
-        <p className="font-nohemi font-bold text-[20px] leading-[120%] tracking-normal">
+        <p className="text-white font-nohemi font-bold text-[20px] leading-[120%] tracking-normal">
           Focused faces—learning mode: ON!
         </p>
       </div>

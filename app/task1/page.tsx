@@ -1,8 +1,8 @@
-import Card2 from "@/components/Card2";
-import Card3 from "@/components/Card3";
-import Card4 from "@/components/Card4";
-import MentorCard from "@/components/MentorCard";
-import StackedCard from "@/components/StackedCard";
+import Card2 from "@/components/task1/Card2";
+import Card3 from "@/components/task2/Card3";
+import Card4 from "@/components/task2/Card4";
+import MentorCard from "@/components/task1/MentorCard";
+import StackedCard from "@/components/task2/StackedCard";
 import { data, data2 } from "@/lib";
 
 const page = () => {

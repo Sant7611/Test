@@ -34,8 +34,6 @@ const Card2 = ({ data }: { data: CardProps }) => {
           src={data.image}
           alt={data.title}
           fill
-          loading="eager"
-          unoptimized
           className="object-contain h-full w-full "
         />
       </div>
@@ -45,7 +43,7 @@ const Card2 = ({ data }: { data: CardProps }) => {
           <h3 className="text-white text-[32px] font-nohemi w-fit h-fit font-[700] leading-[120%] font-nohemi ">
             {data.title}
           </h3>
-          <p className=" text-[24px] leading-normal  w-auto font-[500] text-center font-outfit">
+          <p className=" text-[24px] text-white leading-normal  w-auto font-[500] text-center font-outfit">
             {data.subHeading}
           </p>
           <p className="text-white text-[18px] w-[351px] font-[400] leading-normal  font-outfit ">

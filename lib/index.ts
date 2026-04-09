@@ -5,7 +5,7 @@ export const data = [
     subHeading: "You're not learning alone.",
     description:
       "Stuck or need feedback? SkillShikshya’s community of mentors and learners has your back with live support, interactive discussions, and expert insights. You’re never on your own.",
-    image: "/mentor.png",
+    image: "/task1/mentor.png",
     backgroundColor: "#6C64A8",
     width: "307.04px",
     height: "249.97px",
@@ -16,7 +16,7 @@ export const data = [
     subHeading: "Step into a better learning path.",
     description:
       "Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you're a beginner or upskilling, we have a path tailored to your growth.",
-    image: "/clarity.png",
+    image: "/task1/clarity.png",
     backgroundColor: "#F45B5B",
     width: "257.39px",
     height: "338.59px",
@@ -30,7 +30,7 @@ export const data2 = [
     subHeading: "Build your portfolio, get job-ready.",
     description:
       "Your journey ends with achievement. Each completed project builds a portfolio showcasing your skills and job readiness, bringing you closer to that dream job, promotion, or your own venture.",
-    image: "/job.png",
+    image: "/task1/job.png",
     backgroundColor: "#A88964",
     width: "280.04px",
     height: "310.77px",
@@ -43,7 +43,7 @@ export const data2 = [
     subHeading: "Practical skills, real projects.",
     description:
       "Theory is great, but action is better. At SkillShikshya, you learn by doing. Hands-on projects and real-world scenarios help you build, break, and create—leading to true mastery.",
-    image: "/learn.png",
+    image: "/task1/learn.png",
     backgroundColor: "#5492A0",
     width: "180.35px",
     height: "367px",

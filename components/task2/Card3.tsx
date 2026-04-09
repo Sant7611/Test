@@ -9,7 +9,7 @@ const Card3 = () => {
         <Image alt="profile Image" src="/card3.png" width={352} height={323} />
       </div>
       <div className="absolute w-[241px] h-[72px] top-[56px] left-[326px]">
-        <p className="font-nohemi font-bold text-[20px] leading-[120%] tracking-[0%]">
+        <p className="font-nohemi text-white font-bold text-[20px] leading-[120%] tracking-[0%]">
           Clarity unlocked—stickers, sips, and skills all in one go!
         </p>
       </div>
