@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex  flex-col">
         <nav>
           <ul className="flex items-center justify-center gap-12 py-5 text-xl">
             <li><Link href="/" className=" hover:underline" >Home</Link> </li>

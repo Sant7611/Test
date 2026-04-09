@@ -19,7 +19,7 @@ const page = () => {
           <div className="flex gap-[32px] items-center ">
             <div className="flex flex-col items-center justify-between bg-[#C33241] w-[592px] h-[461px] rounded-[32px] py-[40px] ">
               <div className="flex  ml-auto pr-9.5 group">
-                <button className="flex gap-2  ">
+                <button className="flex text-[#F9EBEC] gap-2  ">
                   View all Courses{" "}
                   <ArrowRight className=" cursor-pointer group-hover:animate-to-fro" />
                 </button>
@@ -62,7 +62,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="">
-                  <div className="flex gap-3  items-center justify-center  px-[75px]">
+                  <div className="flex gap-3 text-[#F9EBEC] items-center justify-center  px-[75px]">
                     <div className="relative">
                       <h1 className="  font-nohemi font-bold text-[150px] leading-[120%] tracking-normal ">
                         23
