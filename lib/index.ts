@@ -36,7 +36,6 @@ export const data2 = [
     height: "310.77px",
     top: "70.56px",
     left:"325.66px",
-    // rotate:"-0.05deg"
   },
    {
     title: "Learn by Doing",
