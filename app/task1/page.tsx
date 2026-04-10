@@ -7,7 +7,7 @@ import { data, data2 } from "@/lib";
 
 const page = () => {
   return (
-    <div className=" py-20 px-20 flex items-end-safe bg-white">
+    <div className=" py-20 px-20  bg-white">
       <div className="mx-auto flex flex-col  gap-12 ">
         <div className="space-y-6 text-black">
           <p className="font-outfit font-medium text-[24px] leading-[100%] tracking-normal">
