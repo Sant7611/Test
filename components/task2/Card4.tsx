@@ -4,7 +4,7 @@ import CardLayout from "./CardLayout";
 export default function Card4() {
   return (
     <CardLayout backgroundColor={"#5492A0"}>
-      <div className="absolute z-[1]  top-[38px] left-[62px] z-10 ">
+      <div className="absolute z-10  top-[38px] left-[62px] z-10 ">
         <Image
           alt="profile Image"
           src="/task1/check.png"
