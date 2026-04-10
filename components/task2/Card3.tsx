@@ -6,7 +6,7 @@ const Card3 = () => {
   return (
     <CardLayout backgroundColor={"#F45B5B"}>
       <div className="absolute top-[18px] left-[34px] z-10">
-        <Image alt="profile Image" src="/card3.png" width={352} height={323} />
+        <Image alt="profile Image" src="/task1/card3.png" width={352} height={323} />
       </div>
       <div className="absolute w-[241px] h-[72px] top-[56px] left-[326px]">
         <p className="font-nohemi text-white font-bold text-[20px] leading-[120%] tracking-[0%]">
@@ -15,10 +15,10 @@ const Card3 = () => {
       </div>
 
       <div className="absolute top-[24px] left-[67px] rotate-[11.91deg] ">
-        <Image alt="Wow Image" src="/image.png" width={110} height={110} />
+        <Image alt="Wow Image" src="/task1/image.png" width={110} height={110} />
       </div>
       <div className="absolute top-[193px] left-[385px] ">
-        <Image alt="Wow Image" src="/image2.png" width={120} height={120} />
+        <Image alt="Wow Image" src="/task1/image2.png" width={120} height={120} />
       </div>
     </CardLayout>
   );

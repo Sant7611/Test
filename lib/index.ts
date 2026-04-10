@@ -1,5 +1,4 @@
 export const data = [
- 
   {
     title: "Get Mentored & Supported",
     subHeading: "You're not learning alone.",
@@ -11,7 +10,7 @@ export const data = [
     height: "249.97px",
     top: "106px",
   },
-   {
+  {
     title: "Start with Clarity",
     subHeading: "Step into a better learning path.",
     description:
@@ -35,9 +34,9 @@ export const data2 = [
     width: "280.04px",
     height: "310.77px",
     top: "70.56px",
-    left:"325.66px",
+    left: "325.66px",
   },
-   {
+  {
     title: "Learn by Doing",
     subHeading: "Practical skills, real projects.",
     description:
@@ -47,8 +46,6 @@ export const data2 = [
     width: "180.35px",
     height: "367px",
     top: "20px",
-    left : "380px"
+    left: "380px",
   },
-  
-
 ];
